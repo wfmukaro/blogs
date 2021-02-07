@@ -1,0 +1,5 @@
+
+npm i -D json-server concurrently
+"json-server": "json-server --watch db.json --port 5000",
+"dev": "concurrently \"npm start\" \"npm run json-server\""
+npm run dev
